@@ -132,10 +132,8 @@
                                    :build nil)))
 
 (straight-use-recipes
- '(nongnu-elpa :type git
-               :repo "https://git.savannah.gnu.org/git/emacs/nongnu.git"
-               :depth (full single-branch)
-               :local-repo "nongnu-elpa"
+ '(nongnu-elpa :type git :host github
+               :repo "emacsmirror/nongnu_elpa"
                :build nil))
 
 (straight-use-recipes '(el-get :type git :host github
